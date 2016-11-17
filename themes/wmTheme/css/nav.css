@@ -21,7 +21,7 @@ Silver: #D0D3D4
 
 	.navbar{
 		height : 40px;
-		background-color : white;
+		background-color : #115740;
 		border-bottom : 2px solid #115740;
 	}
 }
@@ -110,3 +110,82 @@ Silver: #D0D3D4
 		
 	}
 }
+
+.navbar-default {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    background: #fff;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #115740 !important;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    color: #115740 !important;
+    background-color: transparent;
+}
+.navbar-brand { padding: 7px }
+.navbar-brand img {
+    height: 60px;
+    width: 160px;
+    margin-top: -12px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 12px;
+    font-weight: 400;
+}
+.menu-top { background: none }
+.menu-top li a {
+    color: #fff !important;
+    text-transform: uppercase;
+}
+.menu-top li a:hover { color: #115740!important }
+/*@media only screen and (max-width:768px) { 
+    .navbar-default .navbar-nav > li > a {
+        margin-top: 10px;
+        padding: 8px;
+    }
+}*/
+@media only screen and (max-width:480px) { 
+    .menu-top { background-color: rgba(17, 76, 56, 1); }
+    .navbar-default .navbar-nav > li > a { color: #fff !important }
+}
+@media only screen and (max-width:360px) { 
+    .menu-top { background-color: rgba(17, 76, 56, 1); }
+    .navbar-default .navbar-nav > li > a { color: #fff !important }
+}
+@media only screen and (max-width:320px) { 
+    .menu-top { background-color: rgba(17, 76, 56, 1); }
+    .navbar-default .navbar-nav > li > a { color: #fff !important }
+}
+.navbar-default.menu-shrink {
+    background-color: rgba(17, 76, 56, 1);
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+    width: 100%;
+}
+@media only screen and (max-width:480px) { 
+    .menu-top {
+        color: #fff !important;
+        margin-left: 0px;
+    }
+}
+.nav.navbar-nav.navbar-right {background-color: #115740 !important }
+.navbar-default.menu-shrink li a { color: #fff !important }
+.navbar-default.menu-shrink li a:hover { color: #115740 !important }
+.navbar-default .navbar-toggle { background: #fff none repeat scroll 0 0 }
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus { background-color: #fff }
+.navbar-default .navbar-toggle .icon-bar { background-color: #115740 }

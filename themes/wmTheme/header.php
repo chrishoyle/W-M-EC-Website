@@ -44,8 +44,37 @@
 		<!-- .site-branding -->
 
 		<!-- #Navigation -->
-		<div class="flex_nav">
-			<button id="flex_nav_button"> </button>
+		<!-- <div class="flex_nav">
+
+			<button id="flex_nav_button"> </button> -->
+		<!-- 	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button> -->
+		<div class="navbar navbar-default navbar-fixed-top menu-top menu-shrink" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="http://tribeventures.org/"><img src="./Tribe Ventures_files/logo.png" alt="logo"></a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="http://tribeventures.org/#more">about</a></li>
+						<li><a href="http://tribeventures.org/#why_choose">why</a></li>
+						<li><a href="http://tribeventures.org/#team">team</a></li>						
+						<li><a href="http://tribeventures.org/#events">Events</a></li>	
+						<li><a href="http://tribeventures.org/bmc">BMC</a></li>					
+					</ul>
+				</div>
+			</div>
+		</div> 
 			<?php 
 			wp_nav_menu( 
 				array (
