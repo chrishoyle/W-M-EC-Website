@@ -3,6 +3,16 @@
 	
 	@author Khauri
 */
+
+/* Colors: 
+
+Gold: #B9975B
+Green: #115740
+Spirit Gold: #F0B323
+Silver: #D0D3D4
+*/
+
+
 @media (max-width : 1000px){
 	#home_banner{
 		display : none !important;

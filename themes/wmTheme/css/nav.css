@@ -2,6 +2,16 @@
 	For devices 800px and below:
 	Collapse the navbar
 */
+
+
+/* Colors: 
+
+Gold: #B9975B
+Green: #115740
+Spirit Gold: #F0B323
+Silver: #D0D3D4
+*/
+
 @media (max-width : 800px){
 	#home_banner,
 	#page_banner,
@@ -46,10 +56,12 @@
 		color : inherit;
 		display: block;
 		width : inherit;
+		
 	}
 
 	#Navigation .sub-menu li{
 		width : inherit;
+		
 	}
 	#Navigation .current_page_item{
 		background-color:#044539;
