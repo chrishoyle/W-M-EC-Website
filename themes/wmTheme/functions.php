@@ -67,6 +67,12 @@ function entrepreneurship_setup() {
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
+
+	// Custom header images
+	add_theme_support( 'custom-header' , array(
+		'default-image' => '', // get_template_directory_uri() . '/images/header.jpg'
+		'uploads' 		=> true
+	) );
 }
 endif;
 add_action( 'after_setup_theme', 'entrepreneurship_setup' );
@@ -111,7 +117,7 @@ function entrepreneurship_scripts() {
 	if  (is_home()) {
 		wp_enqueue_style( 'home', get_template_directory_uri() . '/css/home.css' );
 	}
-	
+
 	if (is_page()){
 		wp_enqueue_style( 'page' , get_template_directory_uri() . '/css/page.css' );
 	}

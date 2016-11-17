@@ -28,9 +28,11 @@
 			<?php
 			if ( is_home() ) : ?>
 				<div id="home_banner">
+					<img src="<?php //header_image(); ?>">
 				</div>
 			<?php else : ?>
 				<div id="page_banner">
+					<img src=""> <!-- William and Mary Branding Logo -->
 				</div>
 			<?php 
 			endif; ?>
@@ -42,16 +44,19 @@
 		<!-- .site-branding -->
 
 		<!-- #Navigation -->
-		<?php 
-		wp_nav_menu( 
-			array (
-				'theme_location' => 'nav-bar',
-				'container_class'=> 'navbar',
-				'menu_id'=>'Navigation',
-				'fallback_cb' => '',
-				'depth'=>2)
-			);
-		?>
+		<div class="flex_nav">
+			<button id="flex_nav_button"> </button>
+			<?php 
+			wp_nav_menu( 
+				array (
+					'theme_location' => 'nav-bar',
+					'container_class'=> 'navbar',
+					'menu_id'=>'Navigation',
+					'fallback_cb' => '',
+					'depth'=>2)
+				);
+			?>
+		</div> <!-- .flex_nav -->
 		
 	</header><!-- #masthead -->
 
