@@ -1,0 +1,17 @@
+/**
+
+Styles for home page
+*/
+
+body{
+	border-top : 4px solid #B9975B;
+}
+
+#home_banner{
+	height : 200px;
+}
+
+#home_content{
+	display : flex;
+	align-self : center;
+}

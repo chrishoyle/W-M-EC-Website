@@ -1,0 +1,17 @@
+/*
+
+
+*/
+#page_banner{
+	height : 100px;
+	width : 100%;
+}
+.site-content{
+	padding : 10px 50px;
+}
+.content-area {
+	/*padding : 10px 50px;*/
+	align-content : center;
+	justify-content : center;
+	align-items : center;
+}

@@ -1,0 +1,70 @@
+.navbar{
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	align-content: center;
+}
+
+/* Sub Menu Styling */
+.sub-menu{
+	display : none !important;
+	position : absolute !important;
+	margin : 0px;
+	padding: 0px;
+	background-color : inherit;
+	overflow : auto;
+	max-width: 100%;
+	list-style : none;
+}
+
+#Navigation .sub-menu a{
+	color : inherit;
+	display: block;
+	min-width : 100%;
+	max-width : 100%;	
+}
+
+#Navigation .sub-menu li{
+	width : 100%
+}
+#Navigation .current_page_item{
+	background-color:#044539;
+}
+#Navigation{
+	padding : 0px;
+	margin : 0px;
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	flex-direction : row;
+	background-color : #115740;
+	position : relative;
+	border-bottom : 4px solid #B9975B;
+}
+
+#Navigation li{
+	display : block;
+	margin : 0px;
+	color : white;
+	font-size : .8em;
+	font-family : Helvetica;
+	color : white;
+	list-style : none;
+}
+
+#Navigation a{
+	display : block;
+	color : inherit;
+	text-decoration : none;
+	height: 100%
+	width: 100%;
+	padding : 24px 20px;
+}
+
+#Navigation li:hover{
+	background-color : #044539;
+}
+#Navigation li:hover .sub-menu{
+	display: inline-block !important;
+	
+}
