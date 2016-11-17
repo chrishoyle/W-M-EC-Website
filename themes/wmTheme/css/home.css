@@ -1,7 +1,22 @@
 /**
-
-Styles for home page
+	Styles for home the page
+	
+	@author Khauri
 */
+@media (max-width : 1000px){
+	#home_banner{
+		display : none !important;
+	}
+	#home_blog_row{
+		flex-direction : column !important;
+	}
+	#left{
+		order : 2 !important;
+	}
+	body { 
+		border: 0px !important;
+	}
+}
 
 body{
 	border-top : 4px solid #B9975B;
@@ -9,9 +24,52 @@ body{
 
 #home_banner{
 	height : 200px;
+	overflow : hidden;
+}
+#home_banner img{
+	width : 100%;
+}
+
+#intro_screen img{
+	width : 100%;
+	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
 }
 
 #home_content{
 	display : flex;
-	align-self : center;
+	flex-direction : column;
+}
+#home_content .col{
+	display : flex;
+	flex-direction : column;
+	
+}
+#home_blog_row{
+	display : flex;
+	flex-direction : row;
+	flex-wrap : wrap;
+}
+
+.section {
+	padding: 0px 10px;
+}
+
+#left{
+	flex : 1 1 25%;
+	min-width : 200px;
+	padding-bottom : 200px;
+	background-color: tan;
+	text-align : right;
+	color : white;
+	order : -1;
+}
+#mid{
+	padding-bottom : 50px;
+	flex : 0 1 50%;
+	order : 0;
+}
+#right{
+	flex : 1 0 25%;
+	min-width : 200px;
+	order : 1;
 }
