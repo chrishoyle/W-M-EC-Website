@@ -25,16 +25,18 @@ Silver: #D0D3D4
 		border-bottom : 2px solid #115740;
 		position: relative;
 	}
+	
 	.nav.navbar-nav.navbar-right {background-color: #115740 !important }
 	.navbar-default.menu-shrink li a { color: #fff !important }
 	.navbar-default.menu-shrink li a:hover { color: #115740 !important }
 	.navbar-default .navbar-toggle { background: #fff none repeat scroll 0 0 }
+	
 	.navbar-default.menu-shrink {
-    background-color: rgba(17, 76, 56, 1);
-    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
-    padding: 15px 0;
-    width: 100%;
-}
+	    background-color: rgba(17, 76, 56, 1);
+	    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
+	    padding: 15px 0;
+	    width: 100%;
+	}
 }
 /*
 	For devices greater than 800px

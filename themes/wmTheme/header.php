@@ -28,7 +28,7 @@
 			<?php
 			if ( is_home() ) : ?>
 				<div id="home_banner">
-					<img src="<?php print(get_template_directory_uri()); ?>/img/wm_wordmark_single_line_green.png" height="30%" width="30%">
+					
 				</div>
 			<?php else : ?>
 				<div id="page_banner">
@@ -53,7 +53,7 @@
 			wp_nav_menu( 
 				array (
 					'theme_location' => 'nav-bar',
-					'container_class'=> 'navbar',
+					'container_class'=> 'navigation_bar',
 					'menu_id'=>'Navigation',
 					'fallback_cb' => '',
 					'depth'=>2)
