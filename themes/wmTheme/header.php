@@ -55,7 +55,7 @@
 			wp_nav_menu( 
 				array (
 					'theme_location' => 'nav-bar',
-					'container_class'=> 'navbar',
+					'container_class'=> 'navigation_bar',
 					'menu_id'=>'Navigation',
 					'fallback_cb' => '',
 					'depth'=>2)
