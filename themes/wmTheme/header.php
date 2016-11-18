@@ -45,7 +45,10 @@
 
 		<!-- #Navigation -->
 		<div class="flex_nav">
-			<button id="flex_nav_button"> </button>
+
+			<button id="flex_nav_button"> </button> 
+			
+		
 			<?php 
 			wp_nav_menu( 
 				array (

@@ -2,6 +2,16 @@
 	For devices 800px and below:
 	Collapse the navbar
 */
+
+
+/* Colors: 
+
+Gold: #B9975B
+Green: #115740
+Spirit Gold: #F0B323
+Silver: #D0D3D4
+*/
+
 @media (max-width : 800px){
 	#home_banner,
 	#page_banner,
@@ -11,9 +21,20 @@
 
 	.navbar{
 		height : 40px;
-		background-color : white;
+		background-color : #115740;
 		border-bottom : 2px solid #115740;
+		position: relative;
 	}
+	.nav.navbar-nav.navbar-right {background-color: #115740 !important }
+	.navbar-default.menu-shrink li a { color: #fff !important }
+	.navbar-default.menu-shrink li a:hover { color: #115740 !important }
+	.navbar-default .navbar-toggle { background: #fff none repeat scroll 0 0 }
+	.navbar-default.menu-shrink {
+    background-color: rgba(17, 76, 56, 1);
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+    width: 100%;
+}
 }
 /*
 	For devices greater than 800px
@@ -46,10 +67,12 @@
 		color : inherit;
 		display: block;
 		width : inherit;
+		
 	}
 
 	#Navigation .sub-menu li{
 		width : inherit;
+		
 	}
 	#Navigation .current_page_item{
 		background-color:#044539;
