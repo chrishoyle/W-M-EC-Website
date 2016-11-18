@@ -310,14 +310,15 @@ text-transform: uppercase;}
 /*START COUNT DOWN DESIGN*/
 .counter {
     border: 2px solid #B9975B;
+
     /*padding: 20px;
     padding-left: 0px;*/
     color: #B9975B;
-    border-radius: 25px;
+    /*border-radius: 25px;*/
 }
 
-.thumpnail{
-    border: 1px solid #B9975B;
+.thumpnail h3{
+    border-bottom: 1px solid #B9975B;
 }
 @media only screen and (max-width:480px) { 
     .counter { margin-bottom: 10px }
@@ -325,8 +326,8 @@ text-transform: uppercase;}
 
 .counter h1 {
     color: #115740;
-    padding-left: 20px;
-    padding-bottom: 30px;
+    /*padding-left: 20px;
+    padding-bottom: 30px;*/
     font-weight: 700;
 }
 .counter p{

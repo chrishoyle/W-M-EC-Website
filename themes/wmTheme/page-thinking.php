@@ -6,6 +6,7 @@
 
 get_header(); ?>
 <body>
+<section class="home_blog section-padding">
   <div class="container">
     <div class="row ">
       <h1>Entrepreneurial Thinking</h1>
@@ -15,7 +16,7 @@ get_header(); ?>
   </div>
   <br>
   <br>
-  <div class="col-sm-6 col-xs-6">
+  <div class="col-sm-6">
     <div class="counter">
         <h1 class="timer">SKILLS</h1>                 
         <ul><li><p>Opportunity Identification</p></li>
@@ -25,7 +26,7 @@ get_header(); ?>
     </div>
   </div>
 
-  <div class="col-sm-6 col-xs-6">
+  <div class="col-sm-6 ">
     <div class="counter">
         <h1 class="timer">MINDSET</h1>                    
         <ul><li><p>Open to Risk</p></li>
@@ -41,5 +42,6 @@ get_header(); ?>
  </div>
 
   </body>
+  </section>
 
 <?php get_footer(); 
