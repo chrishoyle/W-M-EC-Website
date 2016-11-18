@@ -28,7 +28,9 @@
 			<?php
 			if ( is_home() ) : ?>
 				<div id="home_banner">
-					
+					<br>
+					<img src="<?php print(get_template_directory_uri()); ?>/img/wm_wordmark_single_line_green.png"  />
+					<br>
 				</div>
 			<?php else : ?>
 				<div id="page_banner">
