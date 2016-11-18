@@ -5,24 +5,31 @@
  */
 
 get_header(); ?>
-<div id = "home_content"> <!-- #home -->
-	<div id = "home_blog_row">
-		<div id = "left" class="section"> <!-- wordpress loop -->
-			
-		</div>
+<body>
+	<section id="more" class="about">
+			<div class="container-fluid">
+				<div class="row text-center">
+					<div class="section-title wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+						<h1>Welcome <span> Entrepreneurs</span></h1>
+						<div></div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12 single_about wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+						<i class="fa fa-connectdevelop"></i>
+						<h4>LEARN</h4>
+						<p>Foundational and broadly applicable learning experiences that cultivate entrepreneurial literacy and skills.</p>						
+					</div><!--- END COL -->
+					<div class="col-md-4 col-sm-6 col-xs-12 single_about wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">	
+						<i class="fa fa-life-ring"></i>
+						<h4>ENGAGE</h4>
+						<p>Impactful and direct experiences in the entrepreneurial ecosystem that immerse students in the practice of entrepreneurship.</p>
+					</div><!--- END COL -->
+					<div class="col-md-4 col-sm-6 col-xs-12 single_about wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">		
+						<i class="fa fa-paper-plane-o"></i>
+						<h4>BUILD</h4>
+						<p>Hands on and direct application of tools and skills that builds entrepreneurial mindset.</p>
+					</div><!--- END COL -->
+					</div>
+					</div></section>
 
-		<div id = "mid" class="section">
-			<div id = "home_blog_title" class = "col">
-				<h1> <?php echo get_bloginfo('name'); ?> </h1>
-				<h3 id = "home_blog_descrption"> <?php echo get_bloginfo('description'); ?> </h3>
-			</div>
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-		</div> 
-
-		<div id = "right" class="section">
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-		</div>
-	</div>
-</div> <!-- #home -->
-
+</body>
 <?php get_footer(); ?>
