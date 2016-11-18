@@ -28,8 +28,10 @@ get_header(); ?>
 						<h4>BUILD</h4>
 						<p>Hands on and direct application of tools and skills that builds entrepreneurial mindset.</p>
 					</div><!--- END COL -->
-					</div>
-					</div></section>
+				</div>
+			</div>
+		</section>
+		<br><br>
 
 </body>
 <?php get_footer(); ?>
