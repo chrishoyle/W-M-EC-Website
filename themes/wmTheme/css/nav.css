@@ -20,11 +20,18 @@ Silver: #D0D3D4
 	}
 
 	.navbar{
-		height : 40px;
+		height : 40px;  
 		background-color : #115740;
 		border-bottom : 2px solid #115740;
 		position: relative;
 	}
+	/*.home_banner{
+		padding: 7px; 
+	}*/
+	.top_container{
+		padding: 7px;
+	}
+
 	
 	.nav.navbar-nav.navbar-right {background-color: #115740 !important }
 	.navbar-default.menu-shrink li a { color: #fff !important }

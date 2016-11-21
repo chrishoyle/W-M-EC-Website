@@ -27,14 +27,16 @@
 		<div class="site-branding">
 			<?php
 			if ( is_home() ) : ?>
-				<div id="home_banner">
-					<br>
-					<img src="<?php print(get_template_directory_uri()); ?>/img/wm_wordmark_single_line_green.png"  />
-					<br>
-				</div>
+				<!-- <div id="top_container"> -->
+					<div id="page_banner">
+						<br>
+						<a href="index.php"><img src="<?php print(get_template_directory_uri()); ?>/img/wm_wordmark_single_line_green.png"  /></a>
+						<br>
+					</div>
+				<!-- </div> -->
 			<?php else : ?>
 				<div id="page_banner">
-					<img src=""> <!-- William and Mary Branding Logo -->
+					<a href="index.php"><img src="<?php print(get_template_directory_uri()); ?>/img/wm_wordmark_single_line_green.png"  /></a><!-- William and Mary Branding Logo -->
 				</div>
 			<?php 
 			endif; ?>
